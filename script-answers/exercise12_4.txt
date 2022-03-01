@@ -1,0 +1,11 @@
+Script started on 2021-12-09 12:39:14+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="45"]
+]0;hvkukkonen@hvkukkonen-VirtualBox: ~/code-local/full-stack-open-part-12/script-answers[01;32mhvkukkonen@hvkukkonen-VirtualBox[00m:[01;34m~/code-local/full-stack-open-part-12/script-answers[00m$ exitsudo docker start -i goofy_davinci
+[sudo] password for hvkukkonen: 
+]0;root@fbeb1edf1aca: /root@fbeb1edf1aca:/# [K]0;root@fbeb1edf1aca: /root@fbeb1edf1aca:/# node [1Pexitnano usr/src/app/index.jsexit[Knano usr/src/app/index.jsexit[Knano usr/src/app/index.jsode usr/src/app/index.js
+Hello World
+]0;root@fbeb1edf1aca: /root@fbeb1edf1aca:/# exit
+exit
+]0;hvkukkonen@hvkukkonen-VirtualBox: ~/code-local/full-stack-open-part-12/script-answers[01;32mhvkukkonen@hvkukkonen-VirtualBox[00m:[01;34m~/code-local/full-stack-open-part-12/script-answers[00m$ exit
+exit
+
+Script done on 2021-12-09 12:39:55+02:00 [COMMAND_EXIT_CODE="0"]

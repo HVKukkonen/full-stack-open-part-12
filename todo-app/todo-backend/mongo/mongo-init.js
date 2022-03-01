@@ -3,7 +3,7 @@ db.createUser({
   pwd: 'the_password',
   roles: [
     {
-      role: 'dbOwner',
+      role: 'readWrite',
       db: 'the_database',
     },
   ],

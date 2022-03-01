@@ -1,0 +1,74 @@
+Script started on 2022-01-23 17:07:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="45"]
+]0;hvkukkonen@hvkukkonen-VirtualBox: ~/code-local/full-stack-open-part-12/script-answers[01;32mhvkukkonen@hvkukkonen-VirtualBox[00m:[01;34m~/code-local/full-stack-open-part-12/script-answers[00m$ sudo docker exec -it todo-backend_mongo_1 bash
+[sudo] password for hvkukkonen: 
+]0;root@0bc1102d0a0c: /root@0bc1102d0a0c:/# [K]0;root@0bc1102d0a0c: /root@0bc1102d0a0c:/# mongo -u root -p password
+MongoDB shell version v5.0.5
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Error: Authentication failed. :
+connect@src/mongo/shell/mongo.js:372:17
+@(connect):2:6
+exception: connect failed
+exiting with code 1
+]0;root@0bc1102d0a0c: /root@0bc1102d0a0c:/# mongo -u root -p password        example
+MongoDB shell version v5.0.5
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("3b9afd70-cfb2-48a4-a713-6bbbd098e4c7") }
+MongoDB server version: 5.0.5
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2022-01-20T14:37:13.716+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> use database[3G[Juse database[15G
+switched to db database
+> db.todos.inserOne[3G[Jdb.todos.inserOn[19G[3G[Jdb.todos.inserO[18G[3G[Jdb.todos.inser[17GtOne({"text":ncrease the number of tools in my toolbelt"[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[64G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[61G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[58G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[52G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[49G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[42G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[38G[3G[Jdb.todos.insertOne({"text":ncrease the number of tools in my toolbelt"[30G[3G[Jdb.todos.insertOne({"text":"ncrease the number of tools in my toolbelt"[31G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[32G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[33G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[34G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[35G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[36G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[37G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[38G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[39G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[40G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[41G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[42G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[43G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[44G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[45G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[46G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[47G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[48G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[49G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[50G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[51G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[52G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[53G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[54G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[55G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[56G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[57G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[58G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[59G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[60G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[61G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[62G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[63G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[64G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[65G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[66G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[67G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[68G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[69G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[70G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[71G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[72G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[73G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[74G[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt"[75G, "done": false})[3G[Jdb.todos.insertOne({"text":"Increase the number of tools in my toolbelt", "done": false})[92G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("61ee894f025cb54070c325d5")
+}
+> show todos[3G[Jshow todos[13G
+uncaught exception: Error: don't know how to show [todos] :
+shellHelper.show@src/mongo/shell/utils.js:1211:11
+shellHelper@src/mongo/shell/utils.js:838:15
+@(shellhelp2):1:1
+> db.todos.find({}).pretty()[3G[Jdb.todos.find({}).pretty()[29G
+{
+	"_id" : ObjectId("61b378033d6da52c7a4f8771"),
+	"text" : "Write code",
+	"done" : true
+}
+{
+	"_id" : ObjectId("61b378033d6da52c7a4f8772"),
+	"text" : "Learn about containers",
+	"done" : false
+}
+{
+	"_id" : ObjectId("61ee894f025cb54070c325d5"),
+	"text" : "Increase the number of tools in my toolbelt",
+	"done" : false
+}
+> exit[3G[Jexit[7G
+bye
+]0;root@0bc1102d0a0c: /root@0bc1102d0a0c:/# exit
+exit
+]0;hvkukkonen@hvkukkonen-VirtualBox: ~/code-local/full-stack-open-part-12/script-answers[01;32mhvkukkonen@hvkukkonen-VirtualBox[00m:[01;34m~/code-local/full-stack-open-part-12/script-answers[00m$ exit
+exit
+
+Script done on 2022-01-24 13:12:42+02:00 [COMMAND_EXIT_CODE="0"]
